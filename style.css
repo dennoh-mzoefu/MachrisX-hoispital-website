@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(210, 105, 30, .1);
+    width: 100%;
+}
+
+.right__nav,
+.left__nav {
+    display: flex;
+}
+
+.link {
+    /* codxxddxlor: rgba(210, 105, 30, .4); */
+    padding: 1px 10px;
+}
+
+.link:hover {
+    border-bottom: 2px solid rgba(210, 105, 30, 1);
+    cursor: pointer;
+}
+
+.upper__home {
+    padding: 20px;
+}
+
+.drug__card {
+    /* border: 1px solid rgba(210, 105, 30, .5); */
+    width: 25vw;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(210, 105, 30, .1);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+
+}
+
+.drug__card:hover {
+    background-color: rgba(210, 105, 30, .9);
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, .5);
+}
+
+.drug__card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.desc {
+    /* border: 1px solid rgba(210, 105, 30, .5); */
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 2px 4px;
+    margin: 0 10px;
+}
+
+.drug__card__left {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-right: 10px;
+}
