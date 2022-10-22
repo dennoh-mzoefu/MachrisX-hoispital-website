@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/book.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -12,43 +13,201 @@
     <title>Machchisx</title>
   </head>
   <body>
+
     <nav>
       <!-- navbar -->
       <div class="left__nav">
         <!-- logo -->
+        <div class="link">
+          <img src="/assets/images/logo.png" />
+          
+        </div>
         <!-- name -->
         <div class="link">
           <h3>MachrisX</h3>
         </div>
         <!-- home -->
-        <div class="link"><h3>Home</h3></div>
+        <div class="link"><h4>Home</h4></div>
       </div>
       <div class="right__nav">
         <!-- book an appointment -->
-        <div class="link"><h3>Book Appointment</h3></div>
-        <div class="link"><h3>Inventory</h3></div>
+        <div class="link"><a href="bookAppointment.html">
+
+          <h4>Book Appointment</h4></div>
+        </a>
+        <div class="link"><h4>Inventory</h4></div>
         <!-- about -->
-        <div class="link"><h3>About</h3></div>
+        <button class="about"><h4>About</h4></button>
       </div>
     </nav>
     <div class="home">
       <div class="upper__home">
-        <div class="drug__card">
-          <img src="/assets/images/aderrall.jpg" alt="drug image" />
-          <div class="drug__card__left">
-            <p><span class="desc">Name</span> Aderrall</p>
-            <p><span class="desc">Price</span> $300</p>
-            <div class="drug__bottom">
-              <i class="fa fa-cart-plus" aria-hidden="true"></i>
+        <div class="container">
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/aderrall.jpg" alt="rover" />
             </div>
-            <!-- <p></p> -->
+            <div class="card-body">
+              <span class="tag tag-teal">Aderrall</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Adderall is a combination of amphetamine and dextroamphetamine, two central nervous stimulants that improve focus and reduce impulsivity by increasing dopamine and norepinephrine levels in the brain.
+              </p>
+              <span class="tag tag-purple">$283</span>
+            </div>
+          </div>             
+          
+
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/amoxicillin.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Amoxicillin</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                It is used to treat bacterial infections, such as chest infections (including pneumonia) and dental abscesses.
+              </p>
+              <span class="tag tag-purple">$300</span>
+            </div>
           </div>
+          
+
+
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/Amlodipine.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Amlodipine</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Amlodipine is in a class of medications called calcium channel blockers. It lowers blood pressure by relaxing the blood vessels so the heart ...
+              </p>
+              <span class="tag tag-purple">$130</span>
+            </div>
+          </div>
+          
+     
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/Cyclobenzaprine.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Amlodipine</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Cyclobenzaprine is used to help relax certain muscles in your body. It helps relieve pain, stiffness, and discomfort caused by strains, sprains, or injuries to your muscles.
+              </p>
+              <span class="tag tag-purple">$340</span>
+            </div>
+          </div>
+          
+     
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/ibuprofen.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Ibuprofen</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Ibuprofen is a painkiller available over the counter without a prescription. It's one of a group of painkillers called non-steroidal anti-inflammatory drugs (NSAIDs) and can be used to: ease mild to moderate pain – such as toothache, migraine and period pain.
+              </p>
+              <span class="tag tag-purple">$782</span>
+            </div>
+          </div>
+          
+     
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/Levothyroxine.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Levothyroxine</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                What does levothyroxine do to your body?
+Levothyroxine is a medicine used to treat an underactive thyroid gland (hypothyroidism). The thyroid gland makes thyroid hormones which help to control energy leve
+ls and growth. Levothyroxine is taken to replace the missing thyroid hormone thyroxine. </p>
+              <span class="tag tag-purple">$30</span>
+            </div>
+          </div>
+          
+     
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/Lisinopril.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Lisinopril</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Lisinopril works by blocking a substance in the body that causes the blood vessels to tighten. As a result, lisinopril relaxes the blood vessels. This lowers blood pressure and increases the supply of blood and oxygen to the heart
+              </p>
+              <span class="tag tag-purple">$40</span>
+            </div>
+          </div>
+          
+     
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/Prednisone.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Prednisone</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                It is used to treat a number of different conditions, such as inflammation (swelling), severe allergies, adrenal problems, arthritis, asthma, blood or bone marrow problems, endocrine problems, eye or vision problems, stomach or bowel problems
+              </p>
+              <span class="tag tag-purple">$15</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="/assets/images/drugs/vitaminD.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+              @  Made for MAchrisX   2022
+              <span class="tag tag-teal">Vitamin D</span>
+              <h4>
+                Description
+              </h4>
+              <p>
+                Vitamin D helps regulate the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy.
+              </p>
+              <span class="tag tag-purple">$89</span>
+            </div>
+          </div>
+          
+     
+
+          
         </div>
-      </div>
-    </div>
+        <div class="footer">
+          <small>
+            <!-- slogan -->
+          </small>
+        </div>
+    
     <!-- content  -->
-    <!-- slogan -->
+  </body>
     <!-- image  -->
     <!-- products -->
-  </body>
 </html>

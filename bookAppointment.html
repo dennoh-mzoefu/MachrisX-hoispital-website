@@ -4,8 +4,283 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/book.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Book Appointment</title>
   </head>
-  <body></body>
+  <body>
+    <div class="home">
+      <nav>
+      <!-- navbar -->
+      <div class="left__nav">
+        <!-- logo -->
+        <div class="link">
+          <img src="/assets/images/logo.png" />
+          
+        </div>
+        <!-- name -->
+        <div class="link">
+          <h3>MachrisX</h3>
+        </div>
+        <!-- home -->
+        <div class="link"><h4>Home</h4></div>
+      </div>
+      <div class="right__nav">
+        <!-- book an appointment -->
+        <div class="link"><a href="bookAppointment.html">
+
+          <h4>Book Appointment</h4></div>
+        </a>
+        <div class="link"><h4>Inventory</h4></div>
+        <!-- about -->
+        <button class="about"><h4>About</h4></button>
+      </div>
+    </nav>
+      <!-- <h2 class="header">Book an Appointment</h2> -->
+      <div class="upper__book">
+       
+        <div class="upper_desc">
+          <form>
+            <div>
+              <p><small>
+                (Only for medical treatments)
+              </small>
+            </p><p><small class="treat__inquiry">
+              
+                Treatment Inquiry For
+          
+               <input  type="radio" /> <input  type="radio" />
+            </small>
+        </p>
+      </div>
+      <div>
+        <h4>Name</h4>
+        <input type="text" placeholder="Name"/>
+      </div>
+      <div>
+        <h4>Phone or Email</h4>
+        <input type="text"  placeholder="Phone or Email"/>
+      </div>
+      <div class="submit">
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+    </div>
+      <div class="book__home">
+        <div class="left__book__home">
+          <div class="row"> 
+            <h4>Search</h4>
+            <div>
+                <div class="right-inner-addon input-container">
+                    <i class="fa fa-search"></i>
+                    <input type="text"
+                           class="form-control" 
+                           placeholder="  Search" />
+                </div>
+            </div>
+            <h4>Country</h4>
+            <div>
+                <div class="right-inner-addon input-container">
+                    <p class="small">
+
+                      <i class="fa fa-times"></i>
+                    </p>
+                    <select>
+                      <option value="actual value 1">USA</option>
+                      <option value="actual value 2">Canada</option>
+                      <option value="actual value 3">Mexico</option>
+                    </select>
+                </div>
+            </div>
+            <h4>District/State</h4>
+            <div>
+                <div class="right-inner-addon input-container">
+                  <p class="small">
+
+                    <i class="fa fa-times"></i>
+                  </p>
+                  <select>
+                    <option value="actual value 1">Toronto</option>
+                    <option value="actual value 2">New York</option>
+                    <option value="actual value 3">Mexico City</option>
+                  </select>
+                </div>
+            </div>
+            <div class="specialty">
+              <h4>Speciality</h4>
+              <input type="text" placeholder="Search"/>
+              <div>
+                <input type="checkbox" /><p> General Dentist.</p>
+              </div>
+              <div>
+                <input type="checkbox" /><p> Pedodontist  Dentist.</p>
+                </div>
+              <div>
+                <input type="checkbox" /><p> Orthodontist.</p>
+                </div>
+              <div>
+                <input type="checkbox" /> <p> Periodontist  Specialist.</p>
+                </div>
+              <div><input type="checkbox" /><p> Endodontist Specialist.</p>
+                </div>
+              <div><input type="checkbox" /><p> Oral Pathologist  Surgeon.</p>
+                </div>
+                <div>
+                <input type="checkbox" /> <p>Prosthodontist</p>
+              </div>
+
+            </div>
+            <div class="specialty">
+              <h4>Qualification</h4>
+              <input type="text" placeholder="Search"/>
+              <div>
+                <input type="checkbox" /><p> PHD (Health)</p>
+              </div>
+              <div>
+                <input type="checkbox" /><p> BSC (Health)</p>
+                </div>
+              <div>
+                <input type="checkbox" /><p> 1 to 3 year experience </p>
+                </div>
+              <div>
+                <input type="checkbox" /> <p> 4 to 7 year experience</p>
+                </div>
+              <div><input type="checkbox" /><p> More than 7 years</p>
+                </div>
+              
+
+            </div>
+            
+        </div>
+          <!-- <div class="filter__group">
+            <h4>Search</h4>
+            <input type="text" placeholder="Search"/>
+          </div> -->
+        </div>
+        <div class="right__book__home">
+          <div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor1.jpg" />
+            </div>
+              <div>
+                <h4>Spearman David</h4>
+                <p>General Dentistry </p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor2.jpg" />
+            </div>
+              <div>
+                <h4>Martin Harold</h4>
+                <p>Orthodontic Dentistry </p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor3.jpg" />
+            </div>
+              <div>
+                <h4>Pearson Derek</h4>
+                <p>Periodontal Dentistry </p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor4.jpg" />
+            </div>
+              <div>
+                <h4>Wright Peter</h4>
+                <p>Cosmetic Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor5.jpg" />
+            </div>
+              <div>
+                <h4>Newell Derek</h4>
+                <p>Pediatric Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor6.jpg" />
+            </div>
+              <div>
+                <h4>Binder Wallace</h4>
+                <p>Endodontic  Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor7.jpg" />
+            </div>
+              <div>
+                <h4>Watson Norman</h4>
+                <p>Prosthodontic Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor8.jpg" />
+            </div>
+              <div>
+                <h4>Brown Peter</h4>
+                <p>Oral and Maxillofacial Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor9.jpg" />
+            </div>
+              <div>
+                <h4>Wright Peter</h4>
+                <p>Cosmetic Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor10.jpg" />
+            </div>
+              <div>
+                <h4>Wright Peter</h4>
+                <p>Cosmetic Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor11.jpg" />
+            </div>
+              <div>
+                <h4>Wright Peter</h4>
+                <p>Cosmetic Dentistry</p>
+            </div>
+          </div>
+          <div class="doctor__card">
+            <div class="image">
+              <img src="/assets/images/doctors/doctor12.jpg" />
+            </div>
+              <div>
+                <h4>Wright Peter</h4>
+                <p>Cosmetic Dentistry</p>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+      
+      </div>
+      </div>
+      <div class="footer">
+        <small>
+          @  Made for MAchrisX   2022
+        </small>
+      </div>
+    </div>
+  </body>
 </html>
