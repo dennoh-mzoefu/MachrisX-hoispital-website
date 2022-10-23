@@ -4,88 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/tooplate-tween-agency.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/book.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/basic.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="assets/css/tooplate-tween-agency.css" rel="stylesheet" />
     <title>Book Appointment</title>
   </head>
   <body>
-    <div class="home">
-      <nav>
-      <!-- navbar -->
-      <div class="left__nav">
-        <!-- logo -->
-        <div class="link">
-          <img src="/assets/images/logo.png" />
-          
-        </div>
-        <!-- name -->
-        <div class="link">
-          <h3>MachrisX</h3>
-        </div>
-        <!-- home -->
-        <div class="link"><h4>Home</h4></div>
-      </div>
-      <div class="right__nav">
-        <!-- book an appointment -->
-        <div class="link"><a href="bookAppointment.html">
-
-          <h4>Book Appointment</h4></div>
+    
+    <nav class="navbar fixed-top navbar-expand-lg overflow__hidden">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="/assets/images/logo.png" width="50px" /> MachrisX
         </a>
-        <div class="link"><h4>Inventory</h4></div>
-        <!-- about -->
-        <button class="about"><h4>About</h4></button>
+
+        <a href="#" class="custom-btn btn btn-lg d-lg-none ms-auto me-4">
+          Download
+          <i class="bi-download ms-2"></i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="bookAppointment.html">Appointment</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section_4">Inventory</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="doctors.html">Doctors</a>
+            </li>
+          </ul>
+
+          <div class="ms-auto d-none d-lg-block">
+            <a href="purchase.html" class="custom-btn btn btn-lg">
+              Purchase
+              <i class="bi-download ms-2"></i>
+            </a>
+          </div>
+          <ul class="navbar-nav ms-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-      <!-- <h2 class="header">Book an Appointment</h2> -->
-      <div class="upper__book">
-       
-        <div class="upper_desc">
-          <form>
-            <div>
-              <p><small>
-                (Only for medical treatments)
-              </small>
-            </p><p><small class="treat__inquiry">
-              
-                Treatment Inquiry For
-          
-               <input  type="radio" /> <input  type="radio" />
-            </small>
-        </p>
-      </div>
-      <div>
-        <h4>Name</h4>
-        <input type="text" placeholder="Name"/>
-      </div>
-      <div>
-        <h4>Phone or Email</h4>
-        <input type="text"  placeholder="Phone or Email"/>
-      </div>
-      <div class="submit">
-        <button type="submit">Submit</button>
-      </div>
-      </form>
-    </div>
-      <div class="book__home">
-        <div class="left__book__home">
-          <div class="row"> 
-            <h4>Search</h4>
-            <div>
-                <div class="right-inner-addon input-container">
-                    <i class="fa fa-search"></i>
-                    <input type="text"
-                           class="form-control" 
-                           placeholder="  Search" />
-                </div>
-            </div>
-            <h4>Country</h4>
-            <div>
-                <div class="right-inner-addon input-container">
-                    <p class="small">
+      <div class="difff">
+      <div class="home">
+        <!-- <h2 class="header">Book an Appointment</h2> -->
+        <div class="upper__book">
+          <div class="upper_desc">
+            <form>
+              <div>
+                <p><small> (Only for medical treatments) </small></p>
+                <p>
+                  <small class="treat__inquiry">
+                    Treatment Inquiry For
 
+                    <input type="radio" /> <input type="radio" />
+                  </small>
+                </p>
+              </div>
+              <div>
+                <h5>Name</h5>
+                <input type="text" placeholder="Name" />
+              </div>
+              <div>
+                <h5>Phone or Email</h5>
+                <input type="text" placeholder="Phone or Email" />
+              </div>
+              <div class="submit">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="book__home">
+            <div class="left__book__home">
+              <div class="row">
+                <h5>Search</h5>
+                <div>
+                  <div class="right-inner-addon input-container">
+                    <i class="fa fa-search"></i>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="  Search"
+                    />
+                  </div>
+                </div>
+                <h5>Country</h5>
+                <div>
+                  <div class="right-inner-addon input-container">
+                    <p class="small">
                       <i class="fa fa-times"></i>
                     </p>
                     <select>
@@ -93,194 +136,301 @@
                       <option value="actual value 2">Canada</option>
                       <option value="actual value 3">Mexico</option>
                     </select>
+                  </div>
                 </div>
-            </div>
-            <h4>District/State</h4>
-            <div>
-                <div class="right-inner-addon input-container">
-                  <p class="small">
-
-                    <i class="fa fa-times"></i>
-                  </p>
-                  <select>
-                    <option value="actual value 1">Toronto</option>
-                    <option value="actual value 2">New York</option>
-                    <option value="actual value 3">Mexico City</option>
-                  </select>
-                </div>
-            </div>
-            <div class="specialty">
-              <h4>Speciality</h4>
-              <input type="text" placeholder="Search"/>
-              <div>
-                <input type="checkbox" /><p> General Dentist.</p>
-              </div>
-              <div>
-                <input type="checkbox" /><p> Pedodontist  Dentist.</p>
-                </div>
-              <div>
-                <input type="checkbox" /><p> Orthodontist.</p>
-                </div>
-              <div>
-                <input type="checkbox" /> <p> Periodontist  Specialist.</p>
-                </div>
-              <div><input type="checkbox" /><p> Endodontist Specialist.</p>
-                </div>
-              <div><input type="checkbox" /><p> Oral Pathologist  Surgeon.</p>
-                </div>
+                <h5>District/State</h5>
                 <div>
-                <input type="checkbox" /> <p>Prosthodontist</p>
+                  <div class="right-inner-addon input-container">
+                    <p class="small">
+                      <i class="fa fa-times"></i>
+                    </p>
+                    <select>
+                      <option value="actual value 1">Toronto</option>
+                      <option value="actual value 2">New York</option>
+                      <option value="actual value 3">Mexico City</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="specialty">
+                  <h5>Speciality</h5>
+                  <input type="text" placeholder="Search" />
+                  <div>
+                    <input type="checkbox" />
+                    <p>General Dentist.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Pedodontist Dentist.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Orthodontist.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Periodontist Specialist.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Endodontist Specialist.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Oral Pathologist Surgeon.</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>Prosthodontist</p>
+                  </div>
+                </div>
+                <div class="specialty">
+                  <h5>Qualification</h5>
+                  <input type="text" placeholder="Search" />
+                  <div>
+                    <input type="checkbox" />
+                    <p>PHD (Health)</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>BSC (Health)</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>1 to 3 year experience</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>4 to 7 year experience</p>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <p>More than 7 years</p>
+                  </div>
+                </div>
               </div>
-
-            </div>
-            <div class="specialty">
-              <h4>Qualification</h4>
-              <input type="text" placeholder="Search"/>
-              <div>
-                <input type="checkbox" /><p> PHD (Health)</p>
-              </div>
-              <div>
-                <input type="checkbox" /><p> BSC (Health)</p>
-                </div>
-              <div>
-                <input type="checkbox" /><p> 1 to 3 year experience </p>
-                </div>
-              <div>
-                <input type="checkbox" /> <p> 4 to 7 year experience</p>
-                </div>
-              <div><input type="checkbox" /><p> More than 7 years</p>
-                </div>
-              
-
-            </div>
-            
-        </div>
-          <!-- <div class="filter__group">
-            <h4>Search</h4>
+              <!-- <div class="filter__group">
+            <h5>Search</h5>
             <input type="text" placeholder="Search"/>
           </div> -->
+            </div>
+            <div class="right__book__home">
+              <div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor1.jpg" />
+                  </div>
+                  <div>
+                    <h5>Spearman David</h5>
+                    <p>General Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor2.jpg" />
+                  </div>
+                  <div>
+                    <h5>Martin Harold</h5>
+                    <p>Orthodontic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor3.jpg" />
+                  </div>
+                  <div>
+                    <h5>Pearson Derek</h5>
+                    <p>Periodontal Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor4.jpg" />
+                  </div>
+                  <div>
+                    <h5>Wright Peter</h5>
+                    <p>Cosmetic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor5.jpg" />
+                  </div>
+                  <div>
+                    <h5>Newell Derek</h5>
+                    <p>Pediatric Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor6.jpg" />
+                  </div>
+                  <div>
+                    <h5>Binder Wallace</h5>
+                    <p>Endodontic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor7.jpg" />
+                  </div>
+                  <div>
+                    <h5>Watson Norman</h5>
+                    <p>Prosthodontic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor8.jpg" />
+                  </div>
+                  <div>
+                    <h5>Brown Peter</h5>
+                    <p>Oral and Maxillofacial Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor9.jpg" />
+                  </div>
+                  <div>
+                    <h5>Wright Peter</h5>
+                    <p>Cosmetic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor10.jpg" />
+                  </div>
+                  <div>
+                    <h5>Wright Peter</h5>
+                    <p>Cosmetic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor11.jpg" />
+                  </div>
+                  <div>
+                    <h5>Wright Peter</h5>
+                    <p>Cosmetic Dentistry</p>
+                  </div>
+                </div>
+                <div class="doctor__card">
+                  <div class="image">
+                    <img src="/assets/images/doctors/doctor12.jpg" />
+                  </div>
+                  <div>
+                    <h5>Wright Peter</h5>
+                    <p>Cosmetic Dentistry</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="right__book__home">
-          <div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor1.jpg" />
-            </div>
-              <div>
-                <h4>Spearman David</h4>
-                <p>General Dentistry </p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor2.jpg" />
-            </div>
-              <div>
-                <h4>Martin Harold</h4>
-                <p>Orthodontic Dentistry </p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor3.jpg" />
-            </div>
-              <div>
-                <h4>Pearson Derek</h4>
-                <p>Periodontal Dentistry </p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor4.jpg" />
-            </div>
-              <div>
-                <h4>Wright Peter</h4>
-                <p>Cosmetic Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor5.jpg" />
-            </div>
-              <div>
-                <h4>Newell Derek</h4>
-                <p>Pediatric Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor6.jpg" />
-            </div>
-              <div>
-                <h4>Binder Wallace</h4>
-                <p>Endodontic  Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor7.jpg" />
-            </div>
-              <div>
-                <h4>Watson Norman</h4>
-                <p>Prosthodontic Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor8.jpg" />
-            </div>
-              <div>
-                <h4>Brown Peter</h4>
-                <p>Oral and Maxillofacial Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor9.jpg" />
-            </div>
-              <div>
-                <h4>Wright Peter</h4>
-                <p>Cosmetic Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor10.jpg" />
-            </div>
-              <div>
-                <h4>Wright Peter</h4>
-                <p>Cosmetic Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor11.jpg" />
-            </div>
-              <div>
-                <h4>Wright Peter</h4>
-                <p>Cosmetic Dentistry</p>
-            </div>
-          </div>
-          <div class="doctor__card">
-            <div class="image">
-              <img src="/assets/images/doctors/doctor12.jpg" />
-            </div>
-              <div>
-                <h4>Wright Peter</h4>
-                <p>Cosmetic Dentistry</p>
-            </div>
-          </div>
-          
-        </div>
-        </div>
-      
-      </div>
-      </div>
-      <div class="footer">
-        <small>
-          @  Made for MAchrisX   2022
-        </small>
+        
       </div>
     </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-12 me-auto mb-4">
+            <h5 class="text-white mb-3">Newsletter</h5>
+
+            <form class="custom-form subscribe-form mt-4" role="form">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-7">
+                  <input
+                    type="email"
+                    name="subscribe-email"
+                    id="subscribe-email"
+                    pattern="[^ @]*@[^ @]*"
+                    class="form-control"
+                    placeholder="Your email address"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-5">
+                  <button type="submit" class="form-control" id="subscribe">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-2 col-12 mx-auto my-lg-0 my-4">
+            <h5 class="text-white mb-3">Services</h5>
+
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link"
+                  >Pedodontist or Pediatric Dentist.</a
+                >
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link"> General Dentist</a>
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Orthodontist</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-12">
+            <h5 class="text-white mb-3">Say Hi</h5>
+
+            <p>
+              <a href="mailto:email@company.com" class="footer-link"
+                >email@company.com</a
+              >
+            </p>
+            <p></p>
+          </div>
+
+          <div class="site-footer-bottom mt-5">
+            <div class="row pt-4">
+              <div class="col-lg-6 col-12">
+                <p class="copyright-text tooplate-link">
+                  Copyright © 2022 MachrisX Hospital Co., Ltd. <br />Design:
+                  <a
+                    rel="nofollow"
+                    href="https://www.tooplate.com/"
+                    target="_blank"
+                    >Tooplate</a
+                  >
+                </p>
+              </div>
+
+              <div class="col-lg-3 col-12 ms-auto">
+                <ul class="social-icon">
+                  <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                  <li>
+                    <a
+                      href="https://twitter.com/search?q=tooplate"
+                      class="social-icon-link bi-twitter"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-icon-link bi-instagram"></a>
+                  </li>
+
+                  <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+
+                  <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
   </body>
 </html>
