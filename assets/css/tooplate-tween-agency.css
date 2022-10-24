@@ -6,12 +6,12 @@
   /* back */
 }
 
-.overflow__hidden {
+.overflow__hidden bg-black {
   background-color: rgba(128, 142, 176, 1);
   overflow: hidden;
 }
 
-.overflow__hidden__v {
+.overflow__hidden bg-black__v {
   overflow: hidden;
 }
 
@@ -283,7 +283,7 @@ button:focus:not(:focus-visible) {
 }
 
 .overlay {
-  background: rgba(128, 142, 176, .5);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   right: 0;
