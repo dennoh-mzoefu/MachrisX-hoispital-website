@@ -142,7 +142,7 @@ strong {
 
 
 .navbar-brand i {
-  margin-right: 12px;
+  margin-right: 7px;
 }
 
 .backstretch {
@@ -341,7 +341,7 @@ button:focus:not(:focus-visible) {
 }
 
 .navbar-brand {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--white-color);
 }
 

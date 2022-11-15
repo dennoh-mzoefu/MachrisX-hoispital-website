@@ -4,6 +4,10 @@
     font-family: "Sofia", sans-serif;
 }
 
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
 .doctor__home__above {
     width: 100vw;
     /* background-color: yellow; */
