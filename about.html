@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>MachrisX Hospital</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <link href="assets/css/whole.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- body code -->
+    <nav class="navbar fixed-top navbar-expand-lg overflow__hidden bg-black">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="assets/images/logo.png" width="50px" /> MachrisX
+        </a>
+
+        <a href="#" class="custom-btn btn btn-lg d-lg-none ms-auto me-4">
+          purchase
+          <i class="bi-purchase ms-2"></i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bookAppointment.html">Appointment</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="doctors.html">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+          </ul>
+
+          <div class="ms-auto d-none d-lg-block">
+            <a href="purchase.html" class="custom-btn btn btn-lg">
+              Products
+              <i class="bi-purchase ms-2"></i>
+            </a>
+          </div>
+          <ul class="navbar-nav ms-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="overflow__hidden bg-black__v">
+      <section class="about section-padding" id="section_2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="mb-5">Health Care Sytem</h2>
+            </div>
+
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-intro"
+                  role="tabpanel"
+                  aria-labelledby="nav-intro-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                      <img
+                        src="assets/images/doctors/pexels-karolina-grabowska-4386467.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="col-lg-5 col-12 m-auto">
+                      <h3 class="mb-3">Mission Vission</h3>
+
+                      <p>
+                        MaChriX Dental Care Solution’s mission is to become a
+                        dental health care organization of choice through
+                        quality service delivery to the community as well as
+                        achieve international standards in the management of the
+                        organization. The business aims at offering excellent
+                        medical care through the available resources while
+                        observing the highest standards of practice. The
+                        organization hold dear to value such as professionalism,
+                        integrity, organizational excellence and accessible,
+                        continuous, high-quality service delivery. While
+                        observing this integral values, the business objective
+                        is to grow in professionalism, profitability, and
+                        technology to operate in the international healthcare
+                        environment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding" id="section_6">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 col-12 mx-auto">
+              <h2 class="mb-4 text-center">Let's chat</h2>
+
+              <form class="custom-form" role="form" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 my-2">
+                    <label class="mb-2" for="name">Full Name</label>
+
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-12 my-2">
+                    <label class="mb-2" for="email">Email Address</label>
+
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      pattern="[^ @]*@[^ @]*"
+                      class="form-control"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-12 my-2">
+                    <label class="mb-2" for="subject"
+                      >How did you know about us?</label
+                    >
+
+                    <select
+                      class="form-select form-control"
+                      name="subject"
+                      id="subject"
+                    >
+                      <option selected="">Choose a subject</option>
+                      <option value="web+search">appointment</option>
+                      <option value="social+media">Drug acquisition</option>
+                      <option value="others">Others</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12 my-2">
+                    <label class="mb-2" for="message"
+                      >Tell us about the project</label
+                    >
+
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      id="message"
+                      name="message"
+                    ></textarea>
+
+                    <button type="submit" class="form-control mt-4" id="submit">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="exported__btn">
+        <div class="ms-auto d-none d-lg-block">
+          <a
+            href="exported-html/Offices_Locations.html
+          "
+            class="custom-btn btn btn-lg"
+          >
+            View offices
+            <i class="bi-purchase ms-2"></i>
+          </a>
+        </div>
+        <div class="ms-auto d-none d-lg-block">
+          <a
+            href="exported-html/Services.html
+          "
+            class="custom-btn btn btn-lg"
+          >
+            Services
+            <i class="bi-purchase ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-12 me-auto mb-4">
+            <h5 class="text-white mb-3">Newsletter</h5>
+
+            <form class="custom-form subscribe-form mt-4" role="form">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-7">
+                  <input
+                    type="email"
+                    name="subscribe-email"
+                    id="subscribe-email"
+                    pattern="[^ @]*@[^ @]*"
+                    class="form-control"
+                    placeholder="Your email address"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-5">
+                  <button type="submit" class="form-control" id="subscribe">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-2 col-12 mx-auto my-lg-0 my-4">
+            <h5 class="text-white mb-3">Services</h5>
+
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link"
+                  >Pedodontist or Pediatric Dentist.</a
+                >
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link"> General Dentist</a>
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Orthodontist</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-12">
+            <h5 class="text-white mb-3">Contact Us</h5>
+
+            <p>
+              <a href="mailto:email@company.com" class="footer-link"
+                >email@company.com</a
+              >
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
