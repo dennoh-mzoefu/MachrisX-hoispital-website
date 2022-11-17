@@ -3,6 +3,15 @@
     flex-wrap: wrap;
 }
 
+.exported__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     color: red;
@@ -38,10 +47,10 @@ main {
 body {
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin: 0;
     background-color: #f7f8fc;
     color: #10182f;
